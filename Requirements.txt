@@ -1,0 +1,37 @@
+Requirements for Execution of the Project
+
+1. Software Requirements
+
+Jupyter Notebook / Google Colab / VS Code
+
+2. Dataset Requirement
+part_2_cnn_computer_vision.zip
+labels.csv
+Image folders/classes such as:
+normal
+scratch
+dent
+stain
+
+
+3. Libraries Required
+Import os
+Import zipfile
+Seaborg
+PIL 
+scikit-learn 
+matplotlib 
+seaborn
+Tensorflow
+
+4. Execution Requirements
+Extract the ZIP file before using images.
+Load labels.csv.
+Check number of classes and images per class.
+Resize all images to a fixed size such as 128 × 128.
+Normalize pixel values using rescale=1./255.
+Split dataset into training and testing sets.
+Use image augmentation for training data.
+Build CNN model using convolution, pooling, flatten, dense, and output layers.
+Train and evaluate the CNN model.
+Generate accuracy/loss graphs, confusion matrix, and sample predictions.
